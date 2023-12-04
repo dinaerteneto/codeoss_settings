@@ -1,0 +1,226 @@
+{
+    "editor.fontFamily": "Operator Mono, Fira Code iScript",
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnType": true,
+    "editor.inlayHints.enabled": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.fontSize": 13,
+    // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "synthwave84.disableGlow": true,
+    "editor.wordWrap": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false,
+        "source.fixAll": false
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic (=FlottFlott)
+                    "comment",
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, return…
+                    "constant", //String, Number, Boolean…, this, super
+                    "storage.modifier", //static keyword
+                    "storage.type.class.js" //class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "html.format.indentInnerHtml": true,
+    "workbench.iconTheme": "material-icon-theme",
+    /*
+    "workbench.colorCustomizations": {
+      "terminal.background": "#1a1a1a",
+      "terminal.foreground": "#EA549F",
+      "terminal.ansiBlack": "#000000",
+      "terminal.ansiBlue": "#579BD5",
+      "terminal.ansiBrightBlack": "#797979",
+      "terminal.ansiBrightBlue": "#9CDCFE",
+      "terminal.ansiBrightCyan": "#2BC4E2",
+      "terminal.ansiBrightGreen": "#1AD69C",
+      "terminal.ansiBrightPurple": "#975EAB",
+      "terminal.ansiBrightRed": "#EB2A88",
+      "terminal.ansiBrightWhite": "#EAEAEA",
+      "terminal.ansiBrightYellow": "#e9ad95",
+      "terminal.ansiCyan": "#00B6D6",
+      "terminal.ansiGreen": "#4EC9B0",
+      "terminal.ansiPurple": "#714896",
+      "terminal.ansiRed": "#E92888",
+      "terminal.ansiWhite": "#EAEAEA",
+      "terminal.ansiYellow": "#CE9178"
+    },
+    */
+    "diffEditor.wordWrap": "off",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.sendSequence",
+        "workbench.action.terminal.copySelection",
+        "workbench.action.terminal.paste"
+    ],
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontWeightBold": "1000",
+    "editor.fontLigatures": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "eslint.runtime": "",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "typescript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "diffEditor.codeLens": true,
+    "eslint.codeActionsOnSave.rules": null,
+    "codeium.enableSearch": true,
+    // "terminal.integrated.fontWeight": 600
+    //formatter
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.trailingComma": "none",
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2,
+    "codeium.enableConfig": {
+        "*": true,
+        "log": true
+    },
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1695112411196,
+    "php-cs-fixer.onsave": true,
+    "namespaceResolver.sortOnSave": true,
+    "namespaceResolver.highlightOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "telemetry.telemetryLevel": "off",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/env": true,
+        "**/venv": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.vscode": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/node_modules": true,
+        "venv": true,
+        "*.sublime-*": true,
+        "env*": true
+    },
+    "sync.gist": "3a9e7b5a0e0ad26d5edfd2f36b1102ac",
+    "php.validate.enable": true,
+    "vetur.format.enable": false,
+    "workbench.colorTheme": "Dracula Soft",
+    "[php]": {
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
+    "workbench.startupEditor": "none",
+    "[kotlin]": {
+         
+    },
+    "sync.quietSync": true,
+    "sync.syncExtensions": false,
+    "sync.removeExtensions": false,
+    "sync.autoUpload": true,
+    "sync.forceUpload": true
+}
