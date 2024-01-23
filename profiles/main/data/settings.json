@@ -1,5 +1,4 @@
 {
-    "editor.fontFamily": "Operator Mono, Fira Code iScript",
     "editor.renderWhitespace": "boundary",
     "editor.formatOnType": true,
     "editor.inlayHints.enabled": "off",
@@ -10,8 +9,8 @@
     "synthwave84.disableGlow": true,
     "editor.wordWrap": "off",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": false,
-        "source.fixAll": false
+        "source.fixAll.eslint": "never",
+        "source.fixAll": "never"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -85,7 +84,7 @@
         "workbench.action.terminal.copySelection",
         "workbench.action.terminal.paste"
     ],
-    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontFamily": "Operator Mono Medium, Fira Code IScript",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontWeightBold": "1000",
     "editor.fontLigatures": true,
@@ -210,17 +209,15 @@
     "sync.gist": "3a9e7b5a0e0ad26d5edfd2f36b1102ac",
     "php.validate.enable": true,
     "vetur.format.enable": false,
-    "workbench.colorTheme": "Dracula Soft",
     "[php]": {
         "editor.defaultFormatter": "kokororin.vscode-phpfmt"
     },
     "workbench.startupEditor": "none",
-    "[kotlin]": {
-         
-    },
+    "[kotlin]": {},
     "sync.quietSync": true,
     "sync.syncExtensions": false,
     "sync.removeExtensions": false,
     "sync.autoUpload": true,
-    "sync.forceUpload": true
+    "sync.forceUpload": true,
+    "editor.fontFamily": "\"Operator Mono Medium\", Fira Code IScript"
 }
